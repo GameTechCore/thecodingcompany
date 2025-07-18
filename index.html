@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP Verification</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head> 
+<body>
+    <div class="container">
+        <h1>OTP Verification</h1>
+        <p>Please enter the OTP sent to your email.</p>
+        <form id="otpForm">
+            <input type="text" id="otpInput" placeholder="Enter OTP" required>
+            <button type="submit">Verify</button>
+        </form>
+        <div id="message"></div>
+    </div>
+    <footer>
+        <p>&copy; 2023 The Coding Company</p>
+        <p>Contact us at <a href="mailto:gametechcore@gmail.com">gametechcore@gmail.com</a></p>
+    </footer>
+    <script>
+        $(document).ready(function() {
+            $('#otpForm').on('submit', function(event) {
+                event.preventDefault();
+                const otp = $('#otpInput').val();
+                if (otp === '') {
+                    $('#message').text('Please enter the OTP.').css('color', 'red');
+                } else {
+                    // Simulate OTP verification
+                    $('#message').text('OTP verified successfully!').css('color', 'green');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
