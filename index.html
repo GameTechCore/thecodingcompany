@@ -1,41 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">    
+<!--MARKETING WEBSITE-->
+<!doctype html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OTP Verification</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="script.js"></script>
+    <title>The Coding Company</title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-</head> 
-<body>
-    <div class="container">
-        <h1>OTP Verification</h1>
-        <p>Please enter the OTP sent to your email.</p>
-        <form id="otpForm">
-            <input type="text" id="otpInput" placeholder="Enter OTP" required>
-            <button type="submit">Verify</button>
-        </form>
-        <div id="message"></div>
-    </div>
-    <footer>
-        <p>&copy; 2023 The Coding Company</p>
-        <p>Contact us at <a href="mailto:gametechcore@gmail.com">gametechcore@gmail.com</a></p>
-    </footer>
-    <script>
-        $(document).ready(function() {
-            $('#otpForm').on('submit', function(event) {
-                event.preventDefault();
-                const otp = $('#otpInput').val();
-                if (otp === '') {
-                    $('#message').text('Please enter the OTP.').css('color', 'red');
-                } else {
-                    // Simulate OTP verification
-                    $('#message').text('OTP verified successfully!').css('color', 'green');
-                }
-            });
-        });
-    </script>
-</body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body> 
+    <header>
+        <h1>Welcome to The Coding Company</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a team of passionate developers dedicated to creating innovative software solutions.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Mobile App Development</li>
+                <li>Cloud Solutions</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email us at:<a href="mailto:gametechcore@gmail.com">
+                gametechcore@gmail.com
+            </a>
+            </p>
+            <p>Follow us on social media:</p>
+            <ul>
+                <li><a href="https://twitter.com/TheCodingCo"><i class="fa fa-x-twitter"></i>Twitter</a></li>
+                <li><a href="https://instagram.com/TheCodingCo"><i class="fa fa-instagram"></i>Instagram</a></li>   
+                <li><a href="https://youtube.com/TheCodingCo"><i class="fa fa-youtube"></i>YouTube</a></li>
+                </ul>
+                </section>
+                </main></body>
 </html>
