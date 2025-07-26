@@ -1,53 +1,157 @@
-<!--MARKETING WEBSITE-->
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Coding Company</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body> 
-    <header>
-        <h1>Welcome to The Coding Company</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<body>
+    <nav class="navbar navbar-expand-lg py-3 fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Aura Pro</a>
+            <div class="d-flex align-items-center d-lg-none">
+                <a href="#about-us" class="btn btn-light rounded-pill px-3 me-2">Contact Us</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="nav-links-container mx-auto">
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item"><a class="nav-link" href="#specifications">Specs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#technology">Technology</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about-us">About Us</a></li>
+                    </ul>
+                </div>
+                <a href="#about-us" class="btn btn-light rounded-pill px-4 d-none d-lg-block">Contact Us</a>
+            </div>
+        </div>
+    </nav>
 
     <main>
-        <section id="about">
-            <h2>About Us</h2>
-            <p>We are a team of passionate developers dedicated to creating innovative software solutions.</p>
+        <section class="hero-section hero-section-dark position-relative">
+            <div class="container text-center">
+                <img src="assets/images/m1.png" alt="Aura Pro Design" class="hero-product-image-dynamic">
+                <div class="hero-content text-white">
+                    <h1 class="display-1 fw-bold">Aura Pro</h1>
+                    <p class="lead">Unleash Peak Performance.</p>
+                </div>
+            </div>
         </section>
 
-        <section id="services">
-            <h2>Our Services</h2>
-            <ul>
-                <li>Web Development</li>
-                <li>Mobile App Development</li>
-                <li>Cloud Solutions</li>
-            </ul>
+        <section class="feature-section text-center bg-darker" data-aos="zoom-in">
+            <div class="container"><img src="assets/images/m2.png" alt="Key Specifications" class="img-fluid"></div>
+        </section>
+        
+        <section class="feature-section" id="specifications" data-aos="fade-up">
+            <div class="container">
+                <h2 class="display-4 fw-bold text-center mb-5">Core Technology</h2>
+                <div class="row gy-4">
+                    <div class="col-lg-4 col-md-6"><div class="spec-card"><h3 class="fw-semibold">Display</h3><p>6.78" Quantum Weave LTPO 4.0 AMOLED, 1-180Hz Adaptive Refresh, 4500 Nits Peak Brightness, AuraShield Diamond Glass.</p></div></div>
+                    <div class="col-lg-4 col-md-6"><div class="spec-card"><h3 class="fw-semibold">Performance</h3><p>Snapdragon 8 Gen 4 (3nm), 16GB LPDDR5X RAM, 1TB UFS 4.1 Storage, Graphene Super-Cooling System.</p></div></div>
+                    <div class="col-lg-4 col-md-6"><div class="spec-card"><h3 class="fw-semibold">Camera</h3><p>200MP Main (Variable Aperture), 50MP Ultrawide (Macro), 64MP Periscope (10x Optical Zoom), 8K Video Recording.</p></div></div>
+                    <div class="col-lg-4 col-md-6"><div class="spec-card"><h3 class="fw-semibold">Battery & Charging</h3><p>5,800mAh Silicon-Carbon Battery, 150W GaN HyperCharge (100% in 15 min), 80W Wireless, 15W Reverse Charging.</p></div></div>
+                    <div class="col-lg-4 col-md-6"><div class="spec-card"><h3 class="fw-semibold">Audio & Haptics</h3><p>Symmetrical Dual Speakers with Dolby Atmos, Hi-Res Audio, Kinetic Wave Engine with 6-axis vibration motor.</p></div></div>
+                    <div class="col-lg-4 col-md-6"><div class="spec-card"><h3 class="fw-semibold">Connectivity</h3><p>Global 5G (24 Sub-6 & 12 mmWave bands), Wi-Fi 7, Two-Way Satellite Messaging, Bluetooth 5.4, NFC.</p></div></div>
+                </div>
+            </div>
         </section>
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Email us at:<a href="mailto:gametechcore@gmail.com">
-                gametechcore@gmail.com
-            </a>
-            </p>
-            <p>Follow us on social media:</p>
-            <ul>
-                <li><a href="https://twitter.com/TheCodingCo"><i class="fa fa-x-twitter"></i>Twitter</a></li>
-                <li><a href="https://instagram.com/TheCodingCo"><i class="fa fa-instagram"></i>Instagram</a></li>   
-                <li><a href="https://youtube.com/TheCodingCo"><i class="fa fa-youtube"></i>YouTube</a></li>
-                </ul>
-                </section>
-                </main></body>
-</html>
+        <section class="feature-section-dark text-center" data-aos="zoom-in">
+            <div class="container"><img src="assets/images/m3.png" alt="Core Technology" class="img-fluid"></div>
+        </section>
+
+        <section class="feature-section text-center bg-darker" id="features" data-aos="zoom-in">
+            <div class="container"><h2 class="display-5 fw-bold mb-4">A Lens for Every Scene</h2><img src="assets/images/m4.png" alt="Camera Modes" class="img-fluid rounded shadow-lg"></div>
+        </section>
+
+        <section class="feature-section" data-aos="fade-left">
+            <div class="container"><div class="row align-items-center"><div class="col-md-6 order-md-2"><img src="assets/images/m5.png" alt="Variable Aperture" class="img-fluid rounded shadow-sm"></div><div class="col-md-6 order-md-1"><div class="feature-text"><h2 class="display-5 fw-bold">Master the Light</h2><p class="lead text-white-50">With a variable ƒ/1.6-ƒ/4.0 aperture, you have ultimate control over depth of field.</p></div></div></div></div>
+        </section>
+
+        <section class="feature-section text-center bg-darker" data-aos="fade-up">
+             <div class="container"><img src="assets/images/m6.png" alt="Night Mode Comparison" class="img-fluid"></div>
+        </section>
+        
+        <section class="feature-section" data-aos="fade-right">
+            <div class="container"><div class="row align-items-center"><div class="col-md-6"><img src="assets/images/m20.png" alt="AI Camera Features" class="img-fluid rounded shadow-sm"></div><div class="col-md-6"><div class="feature-text"><h2 class="display-5 fw-bold">AI-Powered Scene Recognition</h2><p class="lead text-white-50">Our advanced AI identifies your subject—from food to portraits—and automatically optimizes every setting for the perfect shot.</p></div></div></div></div>
+        </section>
+
+        <section class="feature-section bg-darker" data-aos="fade-left">
+            <div class="container"><div class="row align-items-center"><div class="col-md-6 order-md-2"><img src="assets/images/m7.png" alt="200MP AI Periscope Camera" class="img-fluid rounded"></div><div class="col-md-6 order-md-1"><div class="feature-text"><h2 class="display-5 fw-bold">200MP AI Periscope</h2><p class="lead text-white-50">Our flagship sensor captures more light and detail than ever before, optimized for brilliance, day or night.</p></div></div></div></div>
+        </section>
+
+        <section class="feature-section-dark text-center" id="technology" data-aos="fade-up">
+            <div class="container">
+                <h2 class="display-5 fw-bold mb-4">Engineered for the Win</h2>
+                <div class="row">
+                    <div class="col-md-6" data-aos="fade-right"><img src="assets/images/m11.png" alt="Gaming Chip" class="img-fluid mb-4 mb-md-0"></div>
+                    <div class="col-md-6" data-aos="fade-left"><img src="assets/images/m12.png" alt="Cooling System" class="img-fluid"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="feature-section text-center" data-aos="zoom-in">
+            <div class="container"><h2 class="display-5 fw-bold mb-4">Console-Level Gaming. In Your Hands.</h2><img src="assets/images/m13.png" alt="Gaming Controller" class="img-fluid"></div>
+        </section>
+
+        <section class="feature-section-dark" data-aos="zoom-in">
+            <div class="container"><div class="image-overlay-container"><img src="assets/images/m15.png" alt="Immersive Gaming Haptics" class="img-fluid"><div class="overlay-text text-center"><h2 class="display-4 fw-bold">4D Haptics</h2><p class="lead">Kinetic Wave Engine with 6-axis vibration motor</p></div></div></div>
+        </section>
+
+        <section class="feature-section" data-aos="fade-up">
+            <div class="container"><div class="row align-items-center"><div class="col-md-6 order-md-2"><img src="assets/images/m10.png" alt="Gaming Experience" class="img-fluid"></div><div class="col-md-6 order-md-1"><div class="feature-text"><h2 class="display-5 fw-bold">Immersive Gameplay</h2><p class="lead text-white-50">A vibrant 120Hz display and console-grade processor deliver an unbeatable mobile gaming experience.</p></div></div></div></div>
+        </section>
+
+        <section class="feature-section bg-darker" data-aos="fade-right">
+            <div class="container"><div class="row align-items-center"><div class="col-md-6"><img src="assets/images/m14.png" alt="180Hz Refresh Rate" class="img-fluid"></div><div class="col-md-6"><div class="feature-text"><h2 class="display-5 fw-bold">Fluidity in Motion</h2><p class="lead text-white-50">The 180Hz display offers buttery-smooth scrolling and an incredible competitive advantage in games.</p></div></div></div></div>
+        </section>
+
+        <section class="feature-section-dark text-center" data-aos="zoom-in">
+            <div class="container"><img src="assets/images/m16.png" alt="Display Brightness" class="img-fluid"></div>
+        </section>
+
+        <section class="feature-section" data-aos="fade-left">
+             <div class="container"><div class="row align-items-center"><div class="col-md-6 order-md-2"><img src="assets/images/m8.png" alt="Silicon-Carbon Battery" class="img-fluid"></div><div class="col-md-6 order-md-1"><div class="feature-text"><h2 class="display-5 fw-bold">The Future of Power</h2><p class="lead text-white-50">Introducing the 5,800mAh Silicon-Carbon battery. Higher density means longer life and a thinner profile.</p></div></div></div></div>
+        </section>
+
+        <section class="feature-section bg-darker" data-aos="fade-right">
+            <div class="container"><div class="row align-items-center"><div class="col-md-6"><img src="assets/images/m9.png" alt="Battery Usage" class="img-fluid"></div><div class="col-md-6"><div class="feature-text"><h2 class="display-5 fw-bold">Power Through Your Day</h2><p class="lead text-white-50">From your morning call to late-night streaming, Aura Pro is designed to keep up.</p></div></div></div></div>
+        </section>
+
+        <section class="feature-section text-center" data-aos="zoom-in">
+            <div class="container"><h2 class="display-5 fw-bold mb-4">Back in the Game. Instantly.</h2><img src="assets/images/m18.png" alt="Fast Charging" class="img-fluid rounded shadow-lg"></div>
+        </section>
+
+        <section class="feature-section bg-darker" data-aos="fade-up">
+            <div class="container"><div class="row align-items-center"><div class="col-md-6"><img src="assets/images/m23.png" alt="Durability" class="img-fluid"></div><div class="col-md-6"><div class="feature-text"><h2 class="display-5 fw-bold">Built to Last</h2><p class="lead text-white-50">Featuring AuraShield Diamond Glass, engineered to resist scratches and survive accidental drops.</p></div></div></div></div>
+        </section>
+        
+        <section class="feature-section" data-aos="fade-up">
+            <div class="container"><div class="row align-items-center"><div class="col-md-6 order-md-2"><img src="assets/images/m21.png" alt="Water Resistance" class="img-fluid"></div><div class="col-md-6 order-md-1"><div class="feature-text"><h2 class="display-5 fw-bold">Ready for Anything</h2><p class="lead text-white-50">With an IP68 rating, the Aura Pro is built to withstand the splashes and spills of everyday life.</p></div></div></div></div>
+        </section>
+
+        <section class="feature-section bg-darker" data-aos="fade-left">
+            <div class="container"><div class="row align-items-center"><div class="col-md-6"><img src="assets/images/m17.png" alt="Fingerprint Sensor" class="img-fluid"></div><div class="col-md-6"><div class="feature-text"><h2 class="display-5 fw-bold">Instant, Secure Access</h2><p class="lead text-white-50">Our next-gen ultrasonic sensor provides secure and instantaneous unlocking, even with wet fingers.</p></div></div></div></div>
+        </section>
+
+        <section class="feature-section" data-aos="fade-right">
+            <div class="container"><div class="row align-items-center"><div class="col-md-6 order-md-2"><img src="assets/images/m19.png" alt="Speaker" class="img-fluid"></div><div class="col-md-6 order-md-1"><div class="feature-text"><h2 class="display-5 fw-bold">Immersive Stereo Sound</h2><p class="lead text-white-50">Dual stereo speakers tuned by audiophiles deliver rich, detailed sound that puts you in the center of the action.</p></div></div></div></div>
+        </section>
+
+        <section class="feature-section bg-darker" data-aos="fade-up">
+            <div class="container"><div class="row align-items-center"><div class="col-md-6"><img src="assets/images/m22.png" alt="Lifestyle" class="img-fluid rounded shadow-sm"></div><div class="col-md-6"><div class="feature-text"><h2 class="display-5 fw-bold">Elegance in Hand</h2><p class="lead text-white-50">A perfect blend of ergonomic design and premium materials makes the Aura Pro a joy to hold and behold.</p></div></div></div></div>
+        </section>
+        
+        <section class="feature-section text-center" data-aos="zoom-in">
+             <div class="container">
+                <h2 class="display-5 fw-bold mb-5">Choose Your Aura</h2>
+                <img src="assets/images/m0.png" alt="Aura Pro color options" class="img-fluid">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-section" id="about-us">
+        </footer>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+        });
+    </script>
+</body>
