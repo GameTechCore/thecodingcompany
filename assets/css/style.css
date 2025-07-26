@@ -160,3 +160,12 @@ body {
     transition: color 0.3s ease;
 }
 .social-icons a:hover { color: #fff; }
+
+img.d-block.w-100.h-707 
+{
+    height: 707px;
+}
+img.rounded-circle.product {
+    height: 200px;
+    width: 200px;
+}
