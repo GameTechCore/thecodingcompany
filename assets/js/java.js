@@ -11,7 +11,7 @@
   appId: "1:1077661494535:web:ceceda8a3d2029e2cd69a2",
   measurementId: "G-22M7JDJZHM"
 };
-        const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxYpVG8B63_eKGVGFkLxcxibOH-d81ipTaZH-otVdoVJKAFqxxogYp6eXY9CuHpoOQqAA/exec';
+        const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz25CFtjIzmX55vXmBROo3fakFQOtRJn8Fy2zAGw4hpmxf8f2j7-T_wKL1iWjcKszIThA/exec';
 
         // =================================================================================
         // === APPLICATION LOGIC - DO NOT EDIT BELOW THIS LINE =============================
