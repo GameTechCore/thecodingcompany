@@ -43,24 +43,41 @@
 @media (max-width: 991.98px) 
 {
 	#navbarNav { flex-basis: 100%; }
-	.nav-links-container { 
+	.nav-links-container 
+	{ 
 		margin-top: 1rem;
 		border-radius:50px;
 	}
 }
 /*Carousel*/
+.mt-85 
+{
+	margin-top: 85px;
+}
 img.d-block.w-100.h-707 
 {
-    height: 707px;
+	height: 707px;
 }
-img.rounded-circle.product {
-    height: 200px;
-    width: 200px;
+img.rounded-circle.product 
+{
+	height: 200px;
+	width: 200px;
 }
-h1.text.fw-bold {
-    margin-top: 100px;
+h1.text.fw-bold 
+{
+	margin-top: 100px;
 }
-.detail.text-center.border.border-3.mt-5 {
-    height: 200px;
-    width: 400px;
+/*Products*/
+.detail.text-center.border.border-3.mt-5 
+{
+	height: 200px;
+	width: 400px;
+}
+h1.text-center.fw-bold.data 
+{
+	margin-top: 204.05px;
+}
+.text_insert
+{
+	top: 20px;
 }
