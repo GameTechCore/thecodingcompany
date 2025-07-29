@@ -3,7 +3,7 @@
 	margin: 0px;
 	padding: 0px;
 }
-/Navigation Bar/
+/*Navigation Bar*/
 .custom-navbar 
 {
 	background-color: rgba(33, 37, 41, 0.7);
@@ -49,7 +49,7 @@
 		border-radius:50px;
 	}
 }
-/Carousel/
+/*Carousel*/
 .mt-85 
 {
 	margin-top: 85px;
@@ -67,7 +67,7 @@ h1.text.fw-bold
 {
 	margin-top: 100px;
 }
-/Products/
+/*Products*/
 .detail.text-center.border.border-3.mt-5 
 {
 	height: 200px;
